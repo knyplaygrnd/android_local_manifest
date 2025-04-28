@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Device Tree -->
+  <project
+      name="knyprjkt/android_device_xiaomi_spes"
+      path="device/xiaomi/spes"
+      remote="github"
+      revision="fifteen" />
+
+  <!-- Kernel -->
+  <project
+      name="knyprjkt/android_kernel_xiaomi_spes"
+      path="kernel/xiaomi/spes"
+      remote="github"
+      revision="d4c" />
+
+  <!-- Vendor Blobs -->
+  <project
+      name="knyprjkt/android_vendor_xiaomi_spes"
+      path="vendor/xiaomi/spes"
+      remote="github"
+      revision="fifteen" />
+</manifest>
