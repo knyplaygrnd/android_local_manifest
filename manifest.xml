@@ -23,4 +23,11 @@
       path="vendor/xiaomi/spes"
       remote="me"
       revision="fifteen" />
+
+    <!-- Hardware ximi -->
+  <project
+      name="knyprjkt/android_hardware_xiaomi"
+      path="hardware/xiaomi"
+      revision="fifteen"
+      remote="me" />
 </manifest>
