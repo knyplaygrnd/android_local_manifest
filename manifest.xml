@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <!-- Remotes -->
+  <remote name="github" fetch="https://github.com/" />
+  
   <!-- Device Tree -->
   <project
       name="knyprjkt/android_device_xiaomi_spes"
       path="device/xiaomi/spes"
       remote="github"
-      revision="fifteen" />
+       />
 
   <!-- Kernel -->
   <project
