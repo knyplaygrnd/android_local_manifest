@@ -30,4 +30,11 @@
       path="hardware/xiaomi"
       revision="fifteen"
       remote="me" />
+
+    <!-- Ximi Parts -->
+  <project
+      name="angelomds42/packages_apps_XiaomiParts"
+      path="packages/apps/XiaomiParts"
+      revision="fifteen"
+      remote="me" />
 </manifest>
