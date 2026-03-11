@@ -2,6 +2,7 @@
 <manifest>
   <!-- Remotes -->
   <remote name="gith" fetch="https://github.com/" />
+  <remote name="berg" fetch="https://codeberg.org/" />
   
   <!-- Device Tree -->
   <project
@@ -26,9 +27,9 @@
 
     <!-- Hardware ximi -->
   <project
-      name="knyplaygrnd/android_hardware_xiaomi"
+      name="PixelOS-AOSP/android_hardware_xiaomi"
       path="hardware/xiaomi"
-      revision="sixteen"
+      revision="sixteen-qpr2"
       remote="gith" />
 
     <!-- Ximi Parts -->
@@ -44,4 +45,12 @@
       path="vendor/lineage-priv/keys"
       revision="sixteen"
       remote="gith" />
+
+    <!-- Extras -->
+    <project
+      name="knotzy07/extras"
+      path="vendor/extra"
+      revision="main"
+      remote="berg" />
+
 </manifest>
