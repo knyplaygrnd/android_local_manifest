@@ -8,7 +8,7 @@
   <project
       name="knyplaygrnd/android_device_xiaomi_spes"
       path="device/xiaomi/spes"
-      revision="sixteen"
+      revision="sixteen-qpr2"
       remote="gith" />
 
   <!-- Kernel -->
@@ -16,14 +16,14 @@
       name="knyplaygrnd/android_device_xiaomi_spes-kernel"
       path="device/xiaomi/spes-kernel"
       remote="gith"
-      revision="sixteen" />
+      revision="sixteen-qpr2" />
 
   <!-- Vendor Blobs -->
   <project
       name="knyplaygrnd/android_vendor_xiaomi_spes"
       path="vendor/xiaomi/spes"
       remote="gith"
-      revision="sixteen" />
+      revision="sixteen-qpr2" />
 
     <!-- Hardware ximi -->
   <project
@@ -36,21 +36,14 @@
   <project
       name="angelomds42/packages_apps_XiaomiParts"
       path="packages/apps/XiaomiParts"
-      revision="sixteen"
+      revision="sixteen-qpr2"
       remote="gith" />
 
     <!-- Keys -->
   <project
       name="knyplaygrnd/vendor_lineage-priv_keys"
       path="vendor/lineage-priv/keys"
-      revision="sixteen"
+      revision="sixteen-qpr2"
       remote="gith" />
-
-    <!-- Extras -->
-    <project
-      name="knotzy07/extras"
-      path="vendor/extra"
-      revision="main"
-      remote="berg" />
 
 </manifest>
